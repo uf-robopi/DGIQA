@@ -51,7 +51,7 @@ Pretrained models are available for:
 - KADID10K  
 - KonIQ-10k  
 
-Weights can be downloaded from [Dropbox]() . 
+Weights can be downloaded from [Dropbox](https://www.dropbox.com/scl/fo/lvrvr8lkk7bmuo16nnba4/ANhZK_B9sjfVLnIFr6P1aMs?rlkey=5o6tllxtywo7dntqvm5w4vcj6&st=esqkfjnl&dl=0) . 
 
 Use with `--model_weights` in inference scripts.
 
