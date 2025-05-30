@@ -38,7 +38,7 @@ Use with `--model_weights` in inference scripts.
 Compute a quality score for one image:
 
 ```bash
-python single_image_inference.py --img /path/to/image.png  --weights pretrained_weights/DGIQA_Koniq10k.pth --encoder vitl --crops 20
+python single_image_inference.py --img /path/to/image.png  --weights /path/to/weights.pth --encoder vitl --crops 20
 ```
 
 * `--img_path`: path to your RGB image
