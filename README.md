@@ -13,7 +13,8 @@ Paper:
 - [Overview](#overview)  
 - [Citation](#citation)  
 - [Installation](#installation)  
-- [Single Image Inference](#single-image-inference)  
+- [Pretrained Weights](#pretrained-weights)
+- [Inference](#single-image-inference)  
 - [Scripts and Utilities](#scripts-and-utilities)  
 - [Acknowledgements](#acknowledgements)
 - [Authors](#authors)  
@@ -32,28 +33,12 @@ A long-held challenge in no-reference image quality assessment (NR-IQA) learning
 ## Citation
 
 
-## Requirements
-
-Create a fresh Conda environment and install dependencies:
-
-```bash
-conda create -n dgiqa python=3.10 -y
-conda activate dgiqa
-
-# Install PyTorch + CUDA (adjust cudatoolkit version to your system)
-conda install pytorch torchvision cudatoolkit=11.8 -c pytorch -c nvidia
-
-# Install other Python packages
-pip install -r requirements.txt
-```
-
----
-
 ## Installation
 
 ```bash
 git clone https://github.com/uf-robopi/DGIQA.git
 cd DGIQA
+conda create -n dgiqa python=3.10 -y
 conda activate dgiqa
 conda install pytorch torchvision cudatoolkit=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
