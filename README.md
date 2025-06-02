@@ -41,8 +41,8 @@ Compute a quality score for one image:
 python single_image_inference.py --img /path/to/image.png  --weights /path/to/weights.pth --encoder vitl --crops 20
 ```
 
-* `--img_path`: path to your RGB image
-* `--model_weights`: path to pretrained DGIQA `.pth` file
+* `--img`: path to your RGB image
+* `--weights`: path to pretrained DGIQA `.pth` file
 * `--encoder`: DepthAnything encoder variant (`vits`, `vitb`, `vitl`)
 * `--crops`: number of random 224×224 crops (default: 20)
 
