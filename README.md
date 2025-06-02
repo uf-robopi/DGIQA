@@ -3,7 +3,7 @@
 This repository contains the implementation of **DGIQA**, a no-reference image quality assessment model that fuses RGB and depth features via Transformer–CNN bridges(TCB) and depth-guided cross attention and refinement(DCAR). Our approach leverages depth information to help the model prioritize salient and closer objects in the scene, significantly enhancing its generalization. DGIQA achieves SOTA perfromance in benchmark datasets and excels in assessing unseen distortions.
 
 **Paper**:  
-> [**DGIQA: Depth-guided Feature Attention and Refinement for Generalizable Image Quality Assessment**]()  
+> [**DGIQA: Depth-guided Feature Attention and Refinement for Generalizable Image Quality Assessment**](https://arxiv.org/abs/2505.24002)  
 > Vaishnav Ramesh, Junliang Liu, Haining Wang, Md Jahidul Islam.   
 
 
@@ -49,6 +49,18 @@ python single_image_inference.py --img /path/to/image.png  --weights /path/to/we
 **Output**: averaged MOS score in \[0,1].
 
 ## Citation
+
+```bibtex 
+@misc{ramesh2025dgiqadepthguidedfeatureattention,
+      title={DGIQA: Depth-guided Feature Attention and Refinement for Generalizable Image Quality Assessment}, 
+      author={Vaishnav Ramesh and Junliang Liu and Haining Wang and Md Jahidul Islam},
+      year={2025},
+      eprint={2505.24002},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.24002}, 
+}
+```
 
 ## Acknowledgements
 
